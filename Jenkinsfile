@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Git-para-declarative') {
       steps {
-        git branch: "${params.BRANCH}", url: 'https://github.com/jenkinsci/git-parameter-plugin.git'
+        git branch: "${params.BRANCH}", url: 'https://github.com/csenapati12/git-para-plugin.git'
       }
     }
   }
